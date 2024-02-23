@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+
+
+header {
+    height: 100px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    font-size: 22px;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.onHover {
+    color: brown;
+}
